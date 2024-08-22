@@ -28,8 +28,7 @@
 		</Item>
 		<Item Name="Application Manager.lvlib" Type="Library" URL="../Application Manager/Application Manager.lvlib"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
-		<Item Name="speed read test.vi" Type="VI" URL="../../speed read test.vi"/>
-		<Item Name="tdms converter.vi" Type="VI" URL="../../tdms converter.vi"/>
+		<Item Name="tdms converter.vi" Type="VI" URL="../tdms converter.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -151,17 +150,17 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="AF.lvlib" Type="Library" URL="../../../Documents/G2CPU/ArrayFire Driver/AF.lvlib"/>
-			<Item Name="G2CPU Arrays.lvlib" Type="Library" URL="../../../Documents/G2CPU/G2CPU Libraries/Arrays/G2CPU Arrays.lvlib"/>
-			<Item Name="G2CPU Assignment And Indexing.lvlib" Type="Library" URL="../../../Documents/G2CPU/G2CPU Libraries/Assignment and indexing/G2CPU Assignment And Indexing.lvlib"/>
-			<Item Name="G2CPU Cleanup.vi" Type="VI" URL="../../../Documents/G2CPU/G2CPU Libraries/G2CPU Cleanup.vi"/>
-			<Item Name="G2CPU Init.vi" Type="VI" URL="../../../Documents/G2CPU/G2CPU Libraries/G2CPU Init.vi"/>
-			<Item Name="G2CPU Manage Environment.lvlib" Type="Library" URL="../../../Documents/G2CPU/G2CPU Libraries/Manage Environment/G2CPU Manage Environment.lvlib"/>
-			<Item Name="G2CPU Math.lvlib" Type="Library" URL="../../../Documents/G2CPU/G2CPU Libraries/Math/G2CPU Math.lvlib"/>
-			<Item Name="G2CPU Move and reorder arrays.lvlib" Type="Library" URL="../../../Documents/G2CPU/G2CPU Libraries/Arrays/Move and Reorder/G2CPU Move and reorder arrays.lvlib"/>
-			<Item Name="G2CPU Runtime Licensing Tools.lvlib" Type="Library" URL="../../../Documents/G2CPU/G2CPU Libraries/Runtime Licensing/G2CPU Runtime Licensing Tools.lvlib"/>
-			<Item Name="G2CPU Signal Processing.lvlib" Type="Library" URL="../../../Documents/G2CPU/G2CPU Libraries/Signal Processing/G2CPU Signal Processing.lvlib"/>
-			<Item Name="Garbage Collector.lvlib" Type="Library" URL="../../../Documents/G2CPU/G2CPU Libraries/Garbage Collector/Garbage Collector.lvlib"/>
+			<Item Name="AF.lvlib" Type="Library" URL="../../G2CPU/ArrayFire Driver/AF.lvlib"/>
+			<Item Name="G2CPU Arrays.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Arrays/G2CPU Arrays.lvlib"/>
+			<Item Name="G2CPU Assignment And Indexing.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Assignment and indexing/G2CPU Assignment And Indexing.lvlib"/>
+			<Item Name="G2CPU Cleanup.vi" Type="VI" URL="../../G2CPU/G2CPU Libraries/G2CPU Cleanup.vi"/>
+			<Item Name="G2CPU Init.vi" Type="VI" URL="../../G2CPU/G2CPU Libraries/G2CPU Init.vi"/>
+			<Item Name="G2CPU Manage Environment.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Manage Environment/G2CPU Manage Environment.lvlib"/>
+			<Item Name="G2CPU Math.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Math/G2CPU Math.lvlib"/>
+			<Item Name="G2CPU Move and reorder arrays.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Arrays/Move and Reorder/G2CPU Move and reorder arrays.lvlib"/>
+			<Item Name="G2CPU Runtime Licensing Tools.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Runtime Licensing/G2CPU Runtime Licensing Tools.lvlib"/>
+			<Item Name="G2CPU Signal Processing.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Signal Processing/G2CPU Signal Processing.lvlib"/>
+			<Item Name="Garbage Collector.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Garbage Collector/Garbage Collector.lvlib"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -183,23 +182,21 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1C3AE273-D4FD-44E0-B6BB-729244B05B10}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">G2CPU Performance Demo</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/G2CPU Performance Demo</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../G2CPU Performance Demo EXE</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4AD129AB-DCCF-4B24-BE0D-13B1156EC035}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">G2CPU Performance Demo.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/G2CPU Performance Demo/G2CPU Performance Demo.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../G2CPU Performance Demo EXE/G2CPU Performance Demo.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/G2CPU Performance Demo/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../G2CPU Performance Demo EXE/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2C4BE004-D0C4-4CFB-8396-A93F5989BF68}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CBAD8F9B-081E-4D2F-8D2A-08252B67ABE2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
@@ -229,10 +226,10 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
-				<Property Name="TgtF_companyName" Type="Str">QPLOX Engineering</Property>
+				<Property Name="TgtF_companyName" Type="Str">G2CPU</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">G2CPU Performance Demo</Property>
 				<Property Name="TgtF_internalName" Type="Str">G2CPU Performance Demo</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 QPLOX Engineering</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 G2CPU</Property>
 				<Property Name="TgtF_productName" Type="Str">G2CPU Performance Demo</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{67659AD9-6FEB-4D95-9766-72EAFA41CF8E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">G2CPU Performance Demo.exe</Property>
