@@ -5,6 +5,8 @@ A demo program demonstrating the performance boost between CPU and GPU computing
 
 WARNING: The demo can only read tdms files which have been converted using the G2CPU Fast Read TDMS Convert.
 
+An example TDMS file can be downloaded at: https://g2cpu.com/100khz2tones_p5hz_same_power-long-2-fast.tdms
+
 ## Executables
 
 A set of executables can be found within the repo at:
