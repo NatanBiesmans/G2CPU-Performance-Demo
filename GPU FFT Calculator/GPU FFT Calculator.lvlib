@@ -13,6 +13,7 @@
 		<Item Name="Start Calculation Msg.lvclass" Type="LVClass" URL="../GPU FFT Calculator Messages/Start Calculation Msg/Start Calculation Msg.lvclass"/>
 		<Item Name="Stop Calculation Msg.lvclass" Type="LVClass" URL="../GPU FFT Calculator Messages/Stop Calculation Msg/Stop Calculation Msg.lvclass"/>
 		<Item Name="Update Data Buffer Msg.lvclass" Type="LVClass" URL="../GPU FFT Calculator Messages/Update Data Buffer Msg/Update Data Buffer Msg.lvclass"/>
+		<Item Name="Write GPU View Msg.lvclass" Type="LVClass" URL="../GPU FFT Calculator Messages/Write GPU View Msg/Write GPU View Msg.lvclass"/>
 	</Item>
 	<Item Name="GPU FFT Calculator.lvclass" Type="LVClass" URL="../GPU FFT Calculator/GPU FFT Calculator.lvclass"/>
 </Library>

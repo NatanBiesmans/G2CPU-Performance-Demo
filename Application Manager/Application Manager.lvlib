@@ -10,6 +10,7 @@
 		<Item Name="Set CPU FFT Config Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Set CPU FFT Config Msg/Set CPU FFT Config Msg.lvclass"/>
 		<Item Name="Set GPU Calculation State Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Set GPU Calculation State Msg/Set GPU Calculation State Msg.lvclass"/>
 		<Item Name="Set GPU FFT Config Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Set GPU FFT Config Msg/Set GPU FFT Config Msg.lvclass"/>
+		<Item Name="Set GPU View Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Set GPU View Msg/Set GPU View Msg.lvclass"/>
 		<Item Name="Set UI CPU Done Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Set UI CPU Done Msg/Set UI CPU Done Msg.lvclass"/>
 		<Item Name="Set UI GPU Done Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Set UI GPU Done Msg/Set UI GPU Done Msg.lvclass"/>
 		<Item Name="Start CPU Calculation Msg.lvclass" Type="LVClass" URL="../Application Manager Messages/Start CPU Calculation Msg/Start CPU Calculation Msg.lvclass"/>
