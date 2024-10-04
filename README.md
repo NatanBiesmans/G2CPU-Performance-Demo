@@ -1,4 +1,4 @@
-#G²CPU Performance Demo
+# G²CPU Performance Demo
 
 
 A demo program demonstrating the performance boost between CPU and GPU computing.
