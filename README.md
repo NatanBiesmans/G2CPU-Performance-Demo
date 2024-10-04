@@ -27,7 +27,7 @@ This program reads a selected TDMS file and converts them to frequency domain us
 You can change the parameters of the GPU and CPU independently. 
 You have the option to run continiously for GPU FFT's, CPU FFFT's and reading from disk. 
 Please be warned that running all at the same time might bottleneck your system due to the FFT's being rendered on screen. 
-You can zoom in on a ROI in order to reduce the grpah size. This tends to remove the bottleneck.
+You can zoom in on a ROI in order to reduce the graph size. This tends to remove the bottleneck.
 
 ## Source Code
 
