@@ -34,12 +34,13 @@
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
-				<Item Name="AF.lvlib" Type="Library" URL="/&lt;vilib&gt;/Natan Biesmans/G2CPU GPU and CPU HPC Toolkit/ArrayFire Driver/AF.lvlib"/>
 				<Item Name="Assert Array Dimension Count.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Array Dimension Count.vim"/>
 				<Item Name="Assert Complex Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Complex Numeric Type.vim"/>
 				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
+				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="Assert Real Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Real Floating-Point Numeric Type.vim"/>
 				<Item Name="Assert Same or Descendant Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Same or Descendant Type.vim"/>
+				<Item Name="Assert Scalar Numeric Or Waveform Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Scalar Numeric Or Waveform Type.vim"/>
 				<Item Name="Assert Scalar Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Scalar Numeric Type.vim"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
@@ -48,6 +49,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Create Registry Key.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -58,6 +60,7 @@
 				<Item Name="Draw True-Color Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw True-Color Pixmap.vi"/>
 				<Item Name="Draw Unflattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Unflattened Pixmap.vi"/>
 				<Item Name="DSDisposePtr.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/importsl/DSDisposePtr.vi"/>
+				<Item Name="DSNewPtr.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/importsl/DSNewPtr.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -67,17 +70,6 @@
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="G2CPU Arrays.lvlib" Type="Library" URL="/&lt;vilib&gt;/Natan Biesmans/G2CPU GPU and CPU HPC Toolkit/G2CPU Libraries/Arrays/G2CPU Arrays.lvlib"/>
-				<Item Name="G2CPU Assignment And Indexing.lvlib" Type="Library" URL="/&lt;vilib&gt;/Natan Biesmans/G2CPU GPU and CPU HPC Toolkit/G2CPU Libraries/Assignment and indexing/G2CPU Assignment And Indexing.lvlib"/>
-				<Item Name="G2CPU Cleanup.vi" Type="VI" URL="/&lt;vilib&gt;/Natan Biesmans/G2CPU GPU and CPU HPC Toolkit/G2CPU Libraries/G2CPU Cleanup.vi"/>
-				<Item Name="G2CPU Functions To Create Arrays.lvlib" Type="Library" URL="/&lt;vilib&gt;/Natan Biesmans/G2CPU GPU and CPU HPC Toolkit/G2CPU Libraries/Arrays/Array/G2CPU Functions To Create Arrays.lvlib"/>
-				<Item Name="G2CPU Init.vi" Type="VI" URL="/&lt;vilib&gt;/Natan Biesmans/G2CPU GPU and CPU HPC Toolkit/G2CPU Libraries/G2CPU Init.vi"/>
-				<Item Name="G2CPU Manage Environment.lvlib" Type="Library" URL="/&lt;vilib&gt;/Natan Biesmans/G2CPU GPU and CPU HPC Toolkit/G2CPU Libraries/Manage Environment/G2CPU Manage Environment.lvlib"/>
-				<Item Name="G2CPU Math.lvlib" Type="Library" URL="/&lt;vilib&gt;/Natan Biesmans/G2CPU GPU and CPU HPC Toolkit/G2CPU Libraries/Math/G2CPU Math.lvlib"/>
-				<Item Name="G2CPU Move and reorder arrays.lvlib" Type="Library" URL="/&lt;vilib&gt;/Natan Biesmans/G2CPU GPU and CPU HPC Toolkit/G2CPU Libraries/Arrays/Move and Reorder/G2CPU Move and reorder arrays.lvlib"/>
-				<Item Name="G2CPU Runtime Licensing Tools.lvlib" Type="Library" URL="/&lt;vilib&gt;/Natan Biesmans/G2CPU GPU and CPU HPC Toolkit/G2CPU Libraries/Runtime Licensing/G2CPU Runtime Licensing Tools.lvlib"/>
-				<Item Name="G2CPU Signal Processing.lvlib" Type="Library" URL="/&lt;vilib&gt;/Natan Biesmans/G2CPU GPU and CPU HPC Toolkit/G2CPU Libraries/Signal Processing/G2CPU Signal Processing.lvlib"/>
-				<Item Name="Garbage Collector.lvlib" Type="Library" URL="/&lt;vilib&gt;/Natan Biesmans/G2CPU GPU and CPU HPC Toolkit/G2CPU Libraries/Garbage Collector/Garbage Collector.lvlib"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
@@ -88,6 +80,7 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="InitStr.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/importsl/InitStr.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -145,17 +138,36 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value DWORD.vi"/>
+				<Item Name="Write Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple STR.vi"/>
+				<Item Name="Write Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple U32.vi"/>
+				<Item Name="Write Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple.vi"/>
+				<Item Name="Write Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value STR.vi"/>
+				<Item Name="Write Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value.vi"/>
 			</Item>
 			<Item Name="9c1d1a77308d2a44" Type="VI" URL="/&lt;resource&gt;/9c1d1a77308d2a44"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="AF.lvlib" Type="Library" URL="../../G2CPU/ArrayFire Driver/AF.lvlib"/>
+			<Item Name="G2CPU Arrays.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Arrays/G2CPU Arrays.lvlib"/>
+			<Item Name="G2CPU Assignment And Indexing.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Assignment and indexing/G2CPU Assignment And Indexing.lvlib"/>
+			<Item Name="G2CPU Cleanup.vi" Type="VI" URL="../../G2CPU/G2CPU Libraries/G2CPU Cleanup.vi"/>
+			<Item Name="G2CPU Functions To Create Arrays.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Arrays/Array/G2CPU Functions To Create Arrays.lvlib"/>
+			<Item Name="G2CPU Init.vi" Type="VI" URL="../../G2CPU/G2CPU Libraries/G2CPU Init.vi"/>
+			<Item Name="G2CPU Manage Environment.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Manage Environment/G2CPU Manage Environment.lvlib"/>
+			<Item Name="G2CPU Math.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Math/G2CPU Math.lvlib"/>
+			<Item Name="G2CPU Move and reorder arrays.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Arrays/Move and Reorder/G2CPU Move and reorder arrays.lvlib"/>
+			<Item Name="G2CPU Runtime Licensing Tools.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Runtime Licensing/G2CPU Runtime Licensing Tools.lvlib"/>
+			<Item Name="G2CPU Signal Processing.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Signal Processing/G2CPU Signal Processing.lvlib"/>
+			<Item Name="Garbage Collector.lvlib" Type="Library" URL="../../G2CPU/G2CPU Libraries/Garbage Collector/Garbage Collector.lvlib"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="lvimptsl.dll" Type="Document" URL="/&lt;resource&gt;/lvimptsl.dll"/>
 			<Item Name="NationalInstruments.LicenseManagement.Sdk.dll" Type="Document" URL="/&lt;resource&gt;/NationalInstruments.LicenseManagement.Sdk.dll"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -174,7 +186,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../G2CPU Performance Demo EXE</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4AD129AB-DCCF-4B24-BE0D-13B1156EC035}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">G2CPU Performance Demo.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../G2CPU Performance Demo EXE/G2CPU Performance Demo.exe</Property>
