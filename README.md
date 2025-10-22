@@ -16,7 +16,7 @@ A set of executables can be found within the repo at:
 ### Needed software 
 * Arrayfire 3.10.0
 * CUDA 12.8
-* LabVIEW 2024 64bit Runtime
+* LabVIEW 2025 64bit Runtime
 
 ### G2CPU Fast Read TDMS Converter
 
