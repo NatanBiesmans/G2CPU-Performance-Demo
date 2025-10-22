@@ -39,4 +39,4 @@ For usage see executables chapter
 * Arrayfire 3.9.0
 * CUDA 12.2
 * LabVIEW 2024 64bit
-* G2CPU 1.4.2
+* G2CPU 1.6.1
