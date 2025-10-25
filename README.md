@@ -40,3 +40,6 @@ For usage see executables chapter
 * CUDA 12.8
 * LabVIEW 2025 64bit
 * G2CPU 1.6.1
+pre release link: 
+Commercial: https://g2cpu.com/Pre%20Release%20Packages/natan_biesmans_lib_g2cpu-1.6.1.11.vip
+Community: https://g2cpu.com/Pre%20Release%20Packages/natan_biesmans_lib_g2cpu_community-1.6.1.2.vip
