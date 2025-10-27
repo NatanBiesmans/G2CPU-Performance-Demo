@@ -14,9 +14,9 @@ A set of executables can be found within the repo at:
 - G2CPU Performance DEMO EXE
 
 ### Needed software 
-* Arrayfire 3.9.0
-* CUDA 12.2
-* LabVIEW 2024 64bit Runtime
+* Arrayfire 3.10.0
+* CUDA 12.8
+* LabVIEW 2025 64bit Runtime
 
 ### G2CPU Fast Read TDMS Converter
 
@@ -36,7 +36,13 @@ You can zoom in on a ROI in order to reduce the graph size. This tends to remove
 For usage see executables chapter
 
 ### Needed Software
-* Arrayfire 3.9.0
-* CUDA 12.2
-* LabVIEW 2024 64bit
+* Arrayfire 3.10.0
+* CUDA 12.8
+* LabVIEW 2025 64bit
 * G2CPU 1.6.1
+
+pre release link: 
+
+Commercial: https://g2cpu.com/Pre%20Release%20Packages/natan_biesmans_lib_g2cpu-1.6.1.11.vip
+
+Community: https://g2cpu.com/Pre%20Release%20Packages/natan_biesmans_lib_g2cpu_community-1.6.1.2.vip
