@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="25008000">
-	<Property Name="CCSymbols" Type="Str">G2CPU_MULTI_DEVICE,TRUE;</Property>
+	<Property Name="CCSymbols" Type="Str">G2CPU_MULTI_DEVICE,TRUE;G2CPU_DISABLE_GARBAGE_COLLECTOR,TRUE;G2CPU_DEBUG,FALSE;</Property>
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">Editor version</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -42,7 +42,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../G2CPU Performance Demo EXE</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4AD129AB-DCCF-4B24-BE0D-13B1156EC035}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">G2CPU Performance Demo.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../G2CPU Performance Demo EXE/G2CPU Performance Demo.exe</Property>
